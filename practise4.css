@@ -127,7 +127,7 @@ body{
     z-index: 1;
 
     .name{
-        color: #303234f9;
+        color:rgb( 130, 122, 121);
         transition:0.6s ease-in 0s;
 
     }
