@@ -1,0 +1,148 @@
+body{
+    background-image: url('f19f014ac1da7ff184916c707302e842.jpg');
+   
+    background-color:#003049;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+.topics{
+    background-image: linear-gradient(to top,rgba(230, 57, 70, 0),rgba(225, 37, 84,0.8),rgb(192, 22, 64));
+    font-size:80px;
+    letter-spacing: 5px;
+    text-shadow:2px 1px 3px black ,8px 4px 8px #780000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(253, 240, 213);
+    height:500px;
+    font-family:fantasy;
+    animation: Anime 1s linear 1s forwards;
+    position:sticky;
+}
+
+.topics:hover{
+    text-shadow:2px 2px 4px #003049,6px 5px 10px #669bbc;
+}
+
+
+ @keyframes Anime{
+ from{ transform:top;
+       
+       }
+ to{transform: translateY(-10px);
+    font-size:40px;
+    height:170px; 
+ } 
+
+}
+
+.container{
+    
+    margin-top: 10px;
+    margin-left:15px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    justify-self:start;
+    background-color: #303234cc;
+    border-radius: 2%/3%;
+    height:350px;
+    width:525px;
+    box-shadow:4px 2px 4px rgb(31, 31, 31), 7px 3px 9px rgb(117, 158, 204);
+   
+}
+.box{
+    left: 0;
+    height:90%;
+    width:13%;
+    background-color:rgba(130, 123, 125, 0.936);
+    box-shadow: 2px 1px 3px rgb(67, 67, 67) ,5px 3px 5px rgb(192, 22, 64);
+    border-radius: 10%/2%;
+    transition: all 1s ease-in-out 0s ;
+    z-index: 1;
+
+}
+
+
+
+.box ul{
+    height:100%;
+    position:relative;
+    padding:0px 5px 5px 5px;
+}
+.box ul li{
+    list-style:none;
+    margin: 15px ;
+}
+.box ul li .genre{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-family: fantasy;
+    font-size: large;
+    color:rgb(170, 28, 63);
+    text-shadow:0.5px 0.5px 0.5px rgb(180, 180, 180),2px 2px 2px  rgb(199, 195, 195);
+}
+
+.content{
+    width: 100%;
+    text-decoration:none;
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    transition:0.1ms;
+}
+
+.pic{
+    
+    position:relative;
+    display:flex;
+    margin-right:20px;
+    height:35px;
+    min-width:28px;
+    background-size:cover;
+   
+}
+.name{
+
+    width:100%;
+    letter-spacing: 0.4px;
+    display:flex;
+    align-items: center;
+    color: #30323400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    text-transform: uppercase;
+    
+    
+        
+ }
+ .box:hover{
+    background-color: rgb(160, 168, 176);
+    width:225px;
+    border-radius: 4%/3%;
+    z-index: 1;
+
+    .name{
+        color: #303234f9;
+        transition:0.6s ease-in 0s;
+
+    }
+ 
+    .name:hover{
+        color:rgb(192, 22, 64);
+        text-shadow: 2px 2px 2px #555656, 0.5px 0.5px 0.5px rgb(44, 43, 43);
+        transition: 0.1ms ease-in-out 0s;
+        
+    }
+    .pic{
+        box-shadow: 2px 1px 2px #003049;
+    }
+}
+
+
+
+
