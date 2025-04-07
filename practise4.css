@@ -45,7 +45,7 @@ body{
     height:500px;
     font-family:fantasy;
     animation: Anime 1s linear 1s forwards;
-    position:sticky;
+/*     position:sticky; */
 }
 
 .topics:hover{
