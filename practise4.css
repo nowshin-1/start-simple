@@ -21,7 +21,7 @@ body{
     border-radius: 25%/50%;
 }
  .alternate a{
-    text-shadow: none;
+    text-shadow:0.5px 0.5px 0.5px rgb(180, 180, 180),1px 1px 1px  rgb(199, 195, 195);
     text-decoration: none;
     color:rgb(192, 22, 64);
     font-size: 15px;
