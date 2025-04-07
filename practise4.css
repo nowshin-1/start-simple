@@ -7,7 +7,32 @@ body{
    
     
 }
+.alternate{
+    position: absolute;
+    background-color:rgb(130, 123, 125);
+    height:40px;
+    width:85px;
+    border-radius:5px/6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    right:50px;
+    top: 55px;
+    border-radius: 25%/50%;
+}
+ .alternate a{
+    text-shadow: none;
+    text-decoration: none;
+    color:rgb(192, 22, 64);
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium';
+    
+ }
 
+.alternate:hover{
+    box-shadow: 2px 2px 4px #003049,6px 5px 10px #669bbc;
+
+ }
 .topics{
     background-image: linear-gradient(to top,rgba(230, 57, 70, 0),rgba(225, 37, 84,0.8),rgb(192, 22, 64));
     font-size:80px;
@@ -46,7 +71,7 @@ body{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    justify-self:start;
+    justify-self:center;
     background-color:#303234cc;
     border-radius: 2%/3%;
     height:350px;
