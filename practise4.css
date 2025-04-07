@@ -47,7 +47,7 @@ body{
     justify-content:space-evenly;
     align-items: center;
     justify-self:start;
-    background-color: #303234cc;
+    background-color:#303234cc;
     border-radius: 2%/3%;
     height:350px;
     width:525px;
@@ -112,7 +112,7 @@ body{
     letter-spacing: 0.4px;
     display:flex;
     align-items: center;
-    color: #30323400;
+    color:#30323400;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
     text-transform: uppercase;
@@ -127,7 +127,7 @@ body{
     z-index: 1;
 
     .name{
-        color:rgb( 130, 122, 121);
+        color:#303234;
         transition:0.6s ease-in 0s;
 
     }
